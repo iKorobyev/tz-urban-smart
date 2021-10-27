@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tz-urban-smart/static/css/main.392d2b68.chunk.css",
+    "main.js": "/tz-urban-smart/static/js/main.d9616bec.chunk.js",
+    "main.js.map": "/tz-urban-smart/static/js/main.d9616bec.chunk.js.map",
+    "runtime-main.js": "/tz-urban-smart/static/js/runtime-main.01b5d3a0.js",
+    "runtime-main.js.map": "/tz-urban-smart/static/js/runtime-main.01b5d3a0.js.map",
+    "static/js/2.33e6b945.chunk.js": "/tz-urban-smart/static/js/2.33e6b945.chunk.js",
+    "static/js/2.33e6b945.chunk.js.map": "/tz-urban-smart/static/js/2.33e6b945.chunk.js.map",
+    "index.html": "/tz-urban-smart/index.html",
+    "static/css/main.392d2b68.chunk.css.map": "/tz-urban-smart/static/css/main.392d2b68.chunk.css.map",
+    "static/js/2.33e6b945.chunk.js.LICENSE.txt": "/tz-urban-smart/static/js/2.33e6b945.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01b5d3a0.js",
+    "static/js/2.33e6b945.chunk.js",
+    "static/css/main.392d2b68.chunk.css",
+    "static/js/main.d9616bec.chunk.js"
+  ]
+}
