@@ -16,10 +16,10 @@ const App = () => {
 
   return (
     <div>
-      <Route exact path="/">
+      <Route exact path="/tz-urban-smart">
         <Form user={user} error={error} loading={loading} />
       </Route>
-      <Route exact path="/profile">
+      <Route exact path="/tz-urban-smart/profile">
         <Profile user={user}/>
       </Route>
     </div>

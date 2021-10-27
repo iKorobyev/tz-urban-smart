@@ -17,7 +17,10 @@ const Form: FC<FormProps> = ({user, loading, error}) => {
   const history = useHistory()
 
   const handleSubmit = () => {
-    history.push('/profile')
+    history.push("/tz-urban-smart/profile")
+    if (user.login) {
+      localStorage.setItem("login", user.login)
+    }
   }
 
   useEffect(() => {

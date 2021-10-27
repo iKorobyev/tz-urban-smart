@@ -1,4 +1,4 @@
-import React, {FC} from 'react'
+import React, {FC, useEffect, useState} from 'react'
 import {IUser} from "./types/user";
 
 interface ProfileProps {
@@ -6,10 +6,14 @@ interface ProfileProps {
 }
 
 const Profile: FC<ProfileProps> = ({ user}) => {
+  let [login, setLogin] = useState<string | null>('');
+  useEffect(() => {
+    setLogin(localStorage.getItem('login'))
+  }, [])
 
   return (
     <div className="flex justify-center items-center min-h-screen">
-      <h1>{user.login}</h1>
+      <h1>{login && user.login}</h1>
     </div>
   );
 };
